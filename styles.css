@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+#menu a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3f3f3f;
+}
+
+#menu button {
+  font-size: 18;
+  font-weight: 400;
+}
+
+.carousel-inner  {
+  max-height: 39rem;
+}
+
+#pie {
+  color: white;
+}
+
+#msg textarea {
+  resize: none;
+}
+
+#spotify {
+  font-size: 75px !important;
+}
+h1{
+  color: rgb(7, 30, 163);
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 80px;
+      animation-duration: 6s;
+      animation-name: h1;
+      animation-iteration-count: infinite;
+}
+
+@media (max-width:768px) {
+  #intro{
+    width: 90% !important;
+  }
